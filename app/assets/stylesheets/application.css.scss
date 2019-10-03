@@ -16,11 +16,16 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Typography styles
 
 h1, h2, h3 {
    font-family: "Open Sans", "sans-serif"; 
 }
 
+// Background gradient
 
 .navbar, .home-callout{
   //Gradient provided by @_ighosh at uiGradients.com
@@ -28,6 +33,8 @@ h1, h2, h3 {
   background: -webkit-linear-gradient(to left, #00c6ff , #0072ff); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #00c6ff , #0072ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+// Navbar styles
 .navbar{
     border:none;
 }
@@ -40,6 +47,8 @@ h1, h2, h3 {
       opacity: 0.75;   
     }
 }
+
+// Homepage styles
 
 .home-callout{
     color: white;
